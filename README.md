@@ -1,2 +1,2 @@
-# history_aware_planner
-The open-sourced repo for our paper
+# History Aware Planner
+The code will be released when the paper is accepted
