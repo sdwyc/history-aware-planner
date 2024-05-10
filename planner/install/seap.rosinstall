@@ -1,0 +1,36 @@
+- git:
+    local-name: trajectory_tool
+    uri: https://github.com/sdwyc/trajectory_tool.git
+    version: main
+
+- git:
+    local-name: scout_simulator
+    uri: https://github.com/sdwyc/Scout_simulation_env.git
+    version: main
+
+- git:
+    local-name: scout_simulator
+    uri: https://github.com/sdwyc/Scout_simulation_env.git
+    version: main
+
+- git:
+    local-name: sim_environment_arranger
+    uri: https://github.com/sdwyc/sim_environment_arranger.git
+    version: main
+
+- git:
+    local-name: grid_map
+    uri: https://github.com/ANYbotics/grid_map.git
+    version: 2.1.0
+
+- git:
+    local-name: kdtree
+    uri: https://github.com/sdwyc/kdtree.git
+    version: main
+
+- git:
+    local-name: elevation_mapping
+    uri: https://github.com/ANYbotics/elevation_mapping.git
+    version: 0.6.0
+
+

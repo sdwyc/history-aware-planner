@@ -1,0 +1,14 @@
+<launch>
+    <param name="use_sim_time" value="true"/>
+    <rosparam file="$(find sea_planner)/config/planning_under_full_grid.yaml" command="load" />
+    <!-- <rosparam file="$(find sea_planner)/config/planning copy.yaml" command="load" /> -->
+
+    <node pkg="sea_planner" type="sea_planner_node" name="sea_planner" output="screen" />
+    
+    <node pkg="sea_planner" type="graph_planner_node" name="graph_planner_node" output="screen"/>
+    
+    <node pkg="sea_planner" type="graph_visualization_node" name="graph_visualization_node" output="screen" />
+
+    <include file="$(find local_planner)/launch/local_planner.launch"/>
+    
+</launch>

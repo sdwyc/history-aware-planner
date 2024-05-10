@@ -1,0 +1,3 @@
+geometry_msgs/Point target_point
+---
+nav_msgs/Path global_path

@@ -1,0 +1,4 @@
+geometry_msgs/Point query_point
+---
+geometry_msgs/Point nearest_vertex
+float64 distance

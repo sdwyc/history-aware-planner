@@ -1,0 +1,7 @@
+
+---
+time stamp
+string state
+# State Lists: ACTIVE    -> Planning
+#              WAITING   -> Waiting for goal
+float32 estimated_distance # The length of reference line

@@ -1,2 +1,4 @@
-# History Aware Planner
-The code will be released when the paper is accepted
+# History-Aware Planning for Risk-free Autonomous Navigation on Unknown Uneven Terrain [ICRA2024]
+## ⭐Note
+The code is released, the running guidance is coming soon. You can find the paper preprint version in [here](./doc/HAP_paper.pdf)!
+

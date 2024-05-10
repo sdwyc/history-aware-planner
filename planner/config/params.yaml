@@ -1,0 +1,34 @@
+seap:
+  # Frames
+  robotFrame: "base_link" # Robot chassis frame_id
+  globalFrame: "map" # Global frame_id
+  
+  RobotHeight: 0.11 # Robot Height(meters)
+
+  epsilon: 0.5 # rtrrt grow rate
+  minNodeDistance: 0.3 # The minimum distance between nodes
+  neiborRangeThre: 1.2 # nodes less than this value are considered neibor nodes
+  minTreeNodeNum: 100 # The minimum number of tree nodes need by navigation
+  minTreeEdgeNum: 200  # The minimum number of tree edges need by navigation
+  maxNodesNum: 100000 # The maximum node number of whole tree
+  alpha: 0.1  # rtrrt sample rate threshold for robot->goal
+  beta: 1.4 # rtrrt sample rate threshold for random sample
+  Gamma: 1.0 # rtrrt sample rate threshold for sensor range sample
+  allowRewiringFromRand: 2.0 # Single rewiring-from-rand step time constrain
+  allowRewiringFromRoot: 4.0 # Single rewiring-from-root step time constrain
+  gradientDiffThre: 5.0 # Maximum gradient threshold for edge, degree form
+  targetTolerance: 0.4 # The tolerance of consider node as target node
+  goalTolerance: 1.0 # The tolerance of arriving goal
+  waypointTolerance: 1.0 # The tolerance of arriving waypoint
+  changRootTolerance: 1.0 # The tolerance of arriving waypoint
+  informationRadius: 1.0 # Check node information gain
+  informationThre: 0.3 # Check node information gain
+  frontierRadius: 1.0 # Check node's surrounding whether exist NaN grid
+  frontierDisThre: 3.0 # The leaf nodes less than this value aren't considered as frontier
+  exploredAreaRadius: 0.8 # The leaf nodes' circle check radius for avoiding explored area
+  exploredAreaThre: 8 # The leaf nodes' circle number threshold of existed nodes
+  findNearNodeThre: 2.0 # The distance threshold to final goal in order to select navigation type
+  obstacleSectorNumThre: 2 # If one node orientation_array element:1) greater than this value, considered obstacle node
+  inflationRadius: 1.2 # The inflation radius for obstacle node
+  maxPenalty: 10.0 # The maximum of Penalty factor
+  regressionFactor: 5 # Control the Penalty's slope
